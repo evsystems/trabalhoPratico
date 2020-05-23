@@ -1,0 +1,40 @@
+var outputDiv=document.querySelector('.output');
+outputDiv.style.background=(25, 36, 98);
+font-family: Cambria,
+Cochin,
+Georgia,
+Times,
+'Times New Roman',
+serif;
+padding: 30px;
+
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+}
+.grid {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item {
+    padding: 10px;
+}
+.grid-item input {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.output {
+    border: 1px solid rgb(7, 6, 6);
+    border-radius: 80%;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
